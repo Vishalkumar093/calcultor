@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient(rgb(250, 3, 209), rgb(17, 212, 43));  
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+form{
+    /* background-color: #000000; */
+}
+table{
+    width: 200px;
+    height: 200px;
+
+    margin: auto;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background-color: #000000;
+    border-radius: 100px;
+}
+table tr{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+table tr td{
+    margin: 5px;
+    display: inline-block;
+}
+table tr td:hover{
+    transform: scale(1.1);
+}
+input{
+    width: 45px;
+    height: 35px;
+    position: relative;
+    border-radius: 5px;
+    font-size: 20px ;
+}
+.input1{
+    width: 210px;
+    height: 50px;
+    float: left;
+    background-color: #D2F7D3;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+.box_shadow{
+    color: blue;
+    box-shadow: 2px 2px blue;
+}
+.box_shadow1{
+    position: relative;
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px white;
+    background-color: blue; 
+}
+.box_shadow2{
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    box-shadow: 2px 2px white;
+    
+}
+.art{
+    color: white;
+    margin-top: 20px;
+    font-family: Georgia;
+    color: rgb(4, 214, 221);
+}
+#box{
+    width: 100px;
+    height: 30px;
+    background-color: #fc1f1f;
+}
+#writter{
+    width: 250px;
+    height: 20px;
+    font-size: 18PX;
+    color: rgb(4, 214, 221);
+    font-family: Georgia;
+}

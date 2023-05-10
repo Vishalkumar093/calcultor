@@ -1,0 +1,354 @@
+#wrapper{
+    width: 65%;
+    height: 560px;
+    background-color: #ff1010;
+    margin: 0% 20% ;  
+    border: 5px dotted black;
+    border-radius: 100px 0px ;  
+    box-sizing: border-box;                                                              
+}
+#main{
+    width: 483.9px;
+    height: 475px;
+    background-color: cyan;
+    margin: 5% 12%;
+    border: 10px solid yellow;
+    border-radius: 80px;
+}
+#header{
+    width: 100%;
+    height: 182px;
+}
+.head{
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+#head_left{
+    float: left;
+    background-color: red;
+    border-radius: 70px 0px 0px 0px;
+}
+.box{
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+.left_bgc{
+    width: 112px;
+    height: 112px;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 6px;
+}
+.button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+}
+.buton{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+}
+#left_button1{
+    float: left; 
+}
+#left_button2{
+    float: right;
+}
+#left_button3{
+    float: left;
+    margin-top: 18px;
+}
+#left_button4{
+    float: right;
+    margin-top: 18px;
+}
+#head_right{
+    float: right;
+    background-color: blue;
+    border-radius: 0px 70px 0px 0px;
+}
+#headright_box{
+    background-color: blue;
+}
+#head_middle{
+    width: 119.8px;
+    height: 180px;
+    background-color: white;
+    float: left;
+    margin-top: 5px;
+}
+.middlebox{
+    width: 37.9px;
+    height: 28.4px;
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+}
+#middlebgc5{
+    background-color: blue;
+}
+#middlebgc6{
+    background-color: blue;
+}
+#middlebgc6_button{
+    width: 20px;
+    height: 20px;
+    margin: 4px 2px 4px 8px;
+    border-radius: 100px;
+   background-color: white;
+}
+#middlebgc7_button{
+    width: 20px;
+    height: 20px;
+    margin: 5px ;
+    border-radius: 100px;
+    background-color: blue
+    ;
+}
+#middlebgc8{
+    background-color: blue;
+}
+#middlebgc11{
+    background-color: blue;
+}
+#middlebgc14{
+    background-color: blue;
+}
+#middlebgc17{
+    background-color: blue;
+}
+#content{
+    width: 100%;
+    height: 100px;
+    background-color: #ec5b5b;
+}
+.content_box{
+    width: 180px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+}
+.contnt{
+    width: 28px;
+    height: 31.5px;
+    float: left;
+    background-color: #fff;
+    border: 1px solid black; 
+}
+#contntbox2{
+    background-color: red;
+}
+#contntbox2_button{
+    width: 20px;
+    height: 20px;
+    margin: 5px 3px ;
+    border-radius: 100px;
+    background-color: white;
+}
+#contntbox8{
+    background-color: red;
+}
+#contntbox9{
+    background-color: red;
+}
+#contntbox10{
+    background-color: red;
+}
+#contntbox11{
+    background-color: red;
+}
+#contntbox12{
+    background-color: red;
+}
+#contntbox15_button{
+    width: 20px;
+    height: 20px;
+    margin: 6px 1px;
+    border-radius: 100px;
+}
+#content_middle{
+    width: 117.8px;
+    height: 100px;
+    float: left;
+    border: 1px solid black;
+    background-color: #ff22c8;
+}
+#content_mdline{ 
+    height: 0;
+    width: 0;
+    float: left;
+    border-left: 59px solid red;
+    border-right: 59px solid yellow;
+    border-top: 50px solid blue;
+    border-bottom: 50px solid green;
+
+} 
+#content_right{
+    float: right;
+}
+#contbox4_button{
+    width: 20px;
+    height: 20px;
+    margin: 4px 1px ;
+    border-radius: 100px;
+}
+#contbox7{
+    background-color: yellow;
+}
+#contbox8{
+    background-color: yellow;
+}
+#contbox9{
+    background-color: yellow;
+}
+#contbox10{
+    background-color: yellow;
+}
+#contbox11{
+    background-color: yellow;
+}
+#contbox17{
+    background-color: yellow;
+}
+#contbox17_button{
+    width: 20px;
+    height: 20px;
+    margin: 5px 1px;
+    border-radius: 100px;
+    background-color: white;
+}
+#footer{
+    width: 100%;
+    height: 182.6px;
+}
+.foot{
+    width: 180px;
+    height: 180px;
+    float: left;
+    border: 1px solid black;
+    background-color: green ;
+}
+.footbox{
+    width: 130px;
+    height: 130px;
+    background-color: green;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 20px;
+}
+#footer_left{
+    border-radius: 0px 0px 0px 70px;
+}
+#boxex{
+    float: left;
+}
+#footer_right{
+    float: right;
+    background-color: yellow;
+    border-radius: 0px 0px 70px 0px;
+}
+#boxex1{
+    background-color: yellow;
+    float: right;
+}
+.footbgc{
+    width: 114px;
+    height: 114px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 9px;
+}
+.buttom{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+}
+.butom{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 100px;
+    float: left;
+    margin: 10px;
+}
+#foot_button1{
+    float: left; 
+}
+#foot_button2{
+    float: right;
+}
+#foot_button3{
+    float: left;
+    margin-top: 18px;
+}
+#foot_button4{
+    float: right;
+    margin-top: 18px;
+}
+#footer_middle{
+    width: 119.8px;
+    height: 180px;
+    float: left;
+}
+.footerbox{
+    width: 37.9px;
+    height: 28.4px;
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+}
+#footerbox2{
+    background-color: green;
+}
+#footerbox5{
+    background-color: green;
+}
+#footerbox8{
+    background-color: green;
+}
+#footerbox11{
+    background-color: green;
+}
+#footerbox12_button{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 100px;
+}
+#footerbox13{
+    background-color: green;
+}
+#footerbox13_button{
+    width: 20px;
+    height: 20px;
+    margin: 4px 8px;
+    border-radius: 100px;
+    background-color: white;
+}
+#footerbox14{
+    background-color: green;
+}
+/* .foot{
+    width: 130px;
+    height: 130px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: #18df43;
+   
+} */

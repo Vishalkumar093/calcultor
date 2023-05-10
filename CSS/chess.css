@@ -1,0 +1,56 @@
+#wrapper{
+   width: 100%;
+   height: auto;
+}
+#chess{
+    width: 480px;
+    height: 480px;
+    margin-left: 15%;
+    position: justify;
+    border: 30px  solid #ac7339;
+    border-radius: 10px;
+}
+#chess1{
+    width: 100%;
+    float: left; 
+}
+#chess2{
+    width: 100%;
+    float: left;
+}   
+#chess3{
+    width: 100%;
+    float: left;
+} 
+#chess4{
+    width: 100%;
+    float: left;
+} 
+#chess5{
+    width: 100%;
+    float: left;
+} 
+#chess6{
+    width: 100%;
+    float: left;
+} 
+#chess7{
+    width: 100%;
+    float: left;
+} 
+#chess8{
+    width: 100%;
+    float: left;
+} 
+div{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.chessbox{
+    background-color: rgb(243, 239, 239);
+}
+.box{
+    background-color: black;
+}
+/* s */

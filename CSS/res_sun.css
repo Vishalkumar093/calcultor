@@ -1,0 +1,158 @@
+/* .sun{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 115, 0);
+    border-radius:100px ;
+    box-shadow: -4px 2px 56px #f9c05f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+.mercury{
+    height: 20px;
+    width: 20px;
+    background-color: #ca2d2d;
+    transform: orbit 2s linear infinite;
+}
+@keyframes orbit{
+    from{
+        transform: rotate(0deg)translateX(70px)rotate(0deg);
+    }
+    to{
+        transform: rotate(0deg)translateX(70px)rotate(-360deg)
+    }
+}
+p{
+    color: white;
+    font-family: system-ui;
+    left: -62px;
+    top: 11px;
+} */
+div{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+}
+.sun{
+    width: 60px;
+    height: 60px;
+    background: #ff8b17;
+    box-shadow: 0 0 10px #ff8b17,
+                0 0 20px #ff8b17,
+                0 0 30px #ff8b17,
+                0 0 40px #ff8b17;
+    z-index: 9999;
+}
+.planet{
+    background: transparent;
+    border: 3px solid rgba(255, 255, 255, 5);
+    animation: orbit 10s linear infinite;
+}
+@keyframes orbit{
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg); 
+    }
+}
+#planet1{
+    width: 110px;
+    height: 110px;
+}
+#planet2{
+    width: 160px;
+    height: 160px;
+}
+#planet3{
+    width: 220px;
+    height: 220px;
+}
+#planet4{
+    width: 270px;
+    height: 270px;
+}
+#planet5{
+    width: 340px;
+    height: 340px;
+}
+#planet6{
+    width: 430px;
+    height: 430px;
+}
+#planet7{
+    width: 500px;
+    height: 500px;
+}
+#planet8{
+    width: 570px;
+    height: 570px;
+}
+div::before,div::after{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+}
+#planet1::before{
+    width: 20px;
+    height: 20px;
+    bottom: 6px;
+    left: 2px;
+   background : #d3a5a5;
+    /* background: url("image/bgc1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+#planet2::before{
+    width: 25px;
+    height: 25px;
+    top: 10px;
+    left: 10px;
+    background: #c02d2d;
+}
+#planet3::before{
+    width: 30px;
+    height: 30px;
+    top: 100px;
+    left: -15px;
+    background: #7abb24;
+}
+#planet4::before{
+    width: 35px;
+    height: 35px;
+    top: 22px;
+    left: 210px;
+    background: #bbac24;
+}
+#planet5::before{
+    width: 40px;
+    height: 40px;
+    bottom: -18px;
+    left: 170px;
+    background: #1c07db;
+}
+#planet6::before{
+    width: 40px;
+    height: 40px;
+    top: 100px;
+    left: -1px;
+    background: #0af5f5;
+}
+#planet7::before{
+    width: 37px;
+    height: 37px;
+    bottom: 80px;
+    right: 30px;
+    background: #e417ff;
+}
+#planet8::before{
+    width: 41px;
+    height: 41px;
+    bottom: 5px;
+    left: 140px;
+    background: #ff8800;
+}
